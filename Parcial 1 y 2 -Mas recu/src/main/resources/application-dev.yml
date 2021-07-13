@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/repaso_final_lab?serverTimezone=UTC
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
